@@ -37,6 +37,7 @@ export class ChatService {
 
   logout() {
     this.auth.signOut();
+    this.usuario = {};
   }
 
   cargarMensajes(){
