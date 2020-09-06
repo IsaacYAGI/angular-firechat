@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "angular-firechat-d3a53": {
+      "hosting": {
+        "firechat": [
+          "angular-firechat-d3a53"
+        ]
+      }
+    }
+  }
+}
