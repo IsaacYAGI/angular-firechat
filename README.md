@@ -30,6 +30,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 1. Crear el proyecto en firebase
 
+1. Crear una copia del archivo src/environments/env.example.ts y renombrarlo a env.ts y colocar dentro las credenciales de firebase correspondientes al proyecto previamente creado en la consola de firebase. Dichas credenciales estan en la pagina principal en la opcion "Agrega firebase a tu web"
+
 1. Habilitar el api de cloud firestore
 
 1. Habilitar la autenticacion con Google
@@ -39,5 +41,3 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 1. Configurar el callback url handler en twitter. Este se obtiene al intentar habilitar el metodo de autenticacion en firebase
 
 1. Habilitar la autenticacion con Twitter en firebase
-
-1. Configurar las credenciales de firebase del proyecto en la webapp haciendo clic en "Configurar credenciales de firebase" e ingresando los campos solicitados, luego de presionar guardar se debe recargar la pagina. Esta informacion se guardara solamente en el localstorage del navegador.
